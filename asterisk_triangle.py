@@ -1,8 +1,8 @@
 while True:
     height = int(input("Insert the height of the triangle: "))
     space = ' '
-    space_count_pos = height # Counter used if n is positive
-    space_count_neg = 0 # Counter used if n is negative
+    space_count_pos = height # Counter used if hright is positive
+    space_count_neg = 0 # Counter used if height is negative
 
     if height > 0:
         while space_count_pos > 0:
